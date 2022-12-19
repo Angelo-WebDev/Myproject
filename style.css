@@ -1,0 +1,102 @@
+/* ! Reset */
+
+body, html{ font-size: 16px; font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif; box-sizing: border-box; margin: 0;padding: 0;}
+*, *:before, *:after{ box-sizing: border-box; }
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(/background.jpg);
+    background-size: cover; 
+    overflow-y: hidden;
+}
+
+.container2{
+    position: absolute;
+    height: 880px;
+    width: 1200px;
+    background: rgba(7, 7, 7, 0.5); 
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 19%;
+}
+
+.logo{
+    position: relative;
+    background-image: url(/logo.png);
+    height: 11vh;
+    width: 11vw;
+    background-size: contain;
+    margin: auto;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: lime;
+    text-align: center;
+}
+
+.container3{
+    width: 1000px;
+    height: 40px;
+    background-color: lime;
+    margin: auto;
+}
+
+.button{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container4{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    
+}
+
+.text-white{
+    color: white;
+    font-size: 25px;
+}
+
+.text-1{
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+.orange{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+.green{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    background-color: lime;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.red{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    background-color: rgb(230, 63, 77);
+    border-radius: 10px;
+    margin-top: 5px;
+}
